@@ -1,0 +1,178 @@
+/* 
+    Style sheets for the events
+*/
+.thumbImg{
+    position: relative;
+    width: 222px;
+    height: 250px;
+    border: #662046;
+    border-radius: 14px;
+}
+
+.thumbDesc{
+    position: absolute;
+    width: 205px;
+    left: 0px;
+    top: 100px;
+    z-index: 100;
+    background-color: #662046;
+    padding: 5px;
+    color: #fff;
+    opacity: 0.8;
+    border-radius: 10px;
+
+}
+
+.bizThumb {
+    width: 25%;
+    margin-top: 4px;
+    float: left;
+    margin-right: 10px;
+    border-radius: 14px;
+    border-color: #662046;
+
+}
+@media only screen and (min-width: 701px) {
+    .thumbDesc{
+        width: 17%;
+        top: 40%;
+        border-radius: 4px;
+        line-height: 40px;
+    }
+    .thumbImg{
+        width: 17%;
+    }
+    .bizThumb{
+        width: 23%;
+    }
+}
+
+@media only screen and (max-width: 1220px){
+    .thumbImg{
+        width: 100%;
+    }
+    .thumbDesc{
+        width: 100%;
+        top: 57%;
+        border-radius: 3px;
+        line-height: 30px;
+    }
+}
+
+@media only screen and (max-width: 1060px) {
+    .thumbImg{
+        width: 100%;
+    }
+    .thumbDesc{
+        width: 100%;
+        top: 57%;
+        border-radius: 2px;
+        line-height: 20px;
+    }
+}
+
+@media only screen and (max-width: 930px) {
+    .thumbDesc{     
+        width: 100%;
+        border-radius: 1px;
+        top: 42%;
+        line-height: 31px;
+        height: 4px;
+    }
+    .thumbImg{
+        padding-bottom: 50%;
+    }
+    .bizThumb{
+        width: 28%;
+    }
+   
+    }
+
+@media only screen and (max-width: 800px) {
+    .thumbDesc{
+        top: 36%;
+        border-radius: 2px;
+    }
+}
+@media only screen and (max-width: 1000px) {
+    .thumbDesc{
+        width: 100%;
+        border-radius: 2px;
+        top: 46%;
+        line-height: 30px;
+        height: 4px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .thumbDesc{
+        top: 34%;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .thumbDesc{
+        width: 100%;
+        top: 51%;
+        border-radius: 3px;    
+    }
+    .thumbImg{
+        width: 100%;
+        padding-bottom: 70%;
+    }
+    .bizThumb{
+        width: 30%;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .thumbDesc{
+        width: 100%;
+        border-radius: 1px;
+        top: 36%;
+        line-height: 29px;
+    }
+    .thumbImg{
+        height: 50%;
+        padding-bottom: 76%;
+    }
+    .bizThumb{
+        width: 30%;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    .thumbDesc{
+        width: 100%;
+        top: 40%;
+        border-radius: 2px;
+    }
+    .thumbImg{
+        width: 100%;
+        padding-bottom: 110%;
+    }
+    .bizThumb{
+        width: 29%;
+    }
+}
+
+@media only screen and (max-width: 300px) {
+    .thumbDesc{
+        width: 100%;
+        top: 30%;
+        border-radius: 2px;
+    }
+    #thumbDesc .thmplaceAddeess{
+        display: none;
+    }
+    #thumbDesc .thmplaceEmail{
+        display: none;
+    }
+    .thumbImg{
+        width: 100%;
+        padding-bottom: 110%;
+    }
+    .bizThumb{
+        width: 25%;
+    }
+}

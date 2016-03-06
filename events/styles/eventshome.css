@@ -1,0 +1,323 @@
+/* 
+    Style sheets for the events
+*/
+.thumbImg{
+    position: relative;
+    width: 17%;
+    height: 250px;
+    border: #662046;
+    border-radius: 14px;
+}
+
+.thumbDesc{
+    position: absolute;
+    width: 17%;
+    left: 0px;
+    top: 40%;
+    z-index: 100;
+    background-color: #662046;
+    padding: 5px;
+    color: #fff;
+    opacity: 0.8;
+    border-radius: 4px;
+    line-height: 40px;
+
+}
+
+
+.bizThumb {
+    width: 15%;
+    margin-top: 4px;
+    float: left;
+    margin-right: 50px;
+    border-radius: 14px;
+    border-color: #662046;
+
+}
+
+.BusinessList{
+    padding-left:6%;
+}
+
+.thbEventName, .thbEventAddeess, .thbEventPhone, .thbEventEmail{
+    height: 30px;
+    overflow: hidden;
+}
+
+#moreEvents{
+    text-align: center;
+
+}
+
+
+@media only screen and (max-width: 1220px){
+    .thumbDesc{
+        width: 100%;
+        top: 87%;
+        border-radius: 2px;
+        line-height: 26px;
+        min-height: 96px;
+    }
+    .thumbImg{
+        width: 100%;
+        padding-bottom:54%;
+        height: 100px;
+    }
+    .bizThumb{
+        width: 19%;
+        margin-right: 3px;
+    }
+
+    .BusinessList{
+    padding-left:1%;
+    padding-bottom: 7%;
+    }
+
+    .thbEventName, .thbEventAddeess, .thbEventPhone, .thbEventEmail{
+    height: 21px;
+    font-size: 12px;
+    }
+
+    #moreEvents {
+    font-size: 14px;
+    }
+}
+/*
+@media only screen and (max-width: 1060px) {
+    .thumbImg{
+        width: 100%;
+    }
+    .thumbDesc{
+        width: 100%;
+        top: 57%;
+        border-radius: 2px;
+        line-height: 20px;
+    }
+}
+
+@media only screen and (max-width: 930px) {
+    .thumbDesc{     
+        width: 100%;
+        border-radius: 1px;
+        top: 42%;
+        line-height: 31px;
+        height: 4px;
+    }
+    .thumbImg{
+        padding-bottom: 50%;
+    }
+    .bizThumb{
+        width: 28%;
+    }
+   
+    }
+
+@media only screen and (max-width: 800px) {
+   /* .thumbDesc{
+        top: 36%;
+        border-radius: 2px;
+    }
+}
+
+*/
+@media only screen and (max-width: 1000px) {
+    .thumbDesc{
+        width: 100%;
+        top: 87%;
+        border-radius: 2px;
+        line-height: 26px;
+        min-height: 96px;
+    }
+    .thumbImg{
+        width: 100%;
+        padding-bottom:54%;
+        height: 100px;
+    }
+    .bizThumb{
+        width: 19%;
+        margin-right: 3px;
+    }
+
+    .BusinessList{
+    padding-left:1%;
+    padding-bottom: 7%;
+    }
+
+    .thbEventName, .thbEventAddeess, .thbEventPhone, .thbEventEmail{
+    height: 21px;
+    font-size: 12px;
+    }
+
+    #moreEvents {
+    font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .thumbDesc{
+        width: 100%;
+        top: 58%;
+        border-radius: 2px;
+        line-height: 26px;
+        min-height: 96px;
+    }
+    .thumbImg{
+        width: 100%;
+        padding-bottom:54%;
+        height: 100px;
+    }
+    .bizThumb{
+        width: 19%;
+        margin-right: 3px;
+    }
+
+    .BusinessList{
+    padding-left:1%;
+    padding-bottom: 7%;
+    }
+
+    .thbEventName, .thbEventAddeess, .thbEventPhone, .thbEventEmail{
+    height: 21px;
+    font-size: 12px;
+    }
+
+    #moreEvents {
+    font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .thumbDesc{
+        width: 100%;
+        top: 20%;
+        border-radius: 2px;
+        line-height: 17px;
+        min-height: 80px;
+    }
+    .thumbImg{
+        width: 100%;
+        padding-bottom:54%;
+        height: 100px;
+    }
+    .bizThumb{
+        width: 19%;
+        margin-right: 3px;
+    }
+
+    .BusinessList{
+    padding-left:1%;
+    padding-bottom: 7%;
+    }
+
+    .thbEventName, .thbEventAddeess, .thbEventPhone, .thbEventEmail{
+    height: 15px;
+    font-size: 10px;
+    }
+
+    #moreEvents {
+    font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .thumbDesc{
+        width: 100%;
+        top: 20%;
+        border-radius: 2px;
+        line-height: 17px;
+        min-height: 80px;
+    }
+    .thumbImg{
+        width: 100%;
+        padding-bottom:54%;
+        height: 100px;
+    }
+    .bizThumb{
+        width: 19%;
+        margin-right: 3px;
+    }
+
+    .BusinessList{
+    padding-left:1%;
+    padding-bottom: 7%;
+    }
+
+    .thbEventName, .thbEventAddeess, .thbEventPhone, .thbEventEmail{
+    height: 15px;
+    font-size: 10px;
+    }
+
+    #moreEvents {
+    font-size: 14px;
+    }
+}
+
+
+
+@media only screen and (max-width: 350px) {
+    .thumbDesc{
+        width: 100%;
+        top: 20%;
+        border-radius: 2px;
+        line-height: 17px;
+        min-height: 80px;
+    }
+    
+    .thumbImg{
+        width: 100%;
+        padding-bottom:54%;
+    }
+    .bizThumb{
+        width: 19%;
+        margin-right: 3px;
+    }
+
+    .BusinessList{
+    padding-left:1%;
+    padding-bottom: 7%;
+    }
+
+    .thbEventName, .thbEventAddeess, .thbEventPhone, .thbEventEmail{
+    height: 15px;
+    font-size: 10px;
+    }
+
+    #moreEvents {
+    font-size: 14px;
+    }
+}
+
+
+
+@media only screen and (max-width: 300px) {
+   .thumbDesc{
+        width: 100%;
+        top: 20%;
+        border-radius: 2px;
+        line-height: 17px;
+        min-height: 80px;
+    }
+    .thumbImg{
+        width: 100%;
+        padding-bottom:54%;
+    }
+
+    .bizThumb{
+        width: 19%;
+        margin-right: 3px;
+    }
+
+    .BusinessList{
+    padding-left:1%;
+    padding-bottom: 7%;
+    }   
+
+    .thbEventName, .thbEventAddeess, .thbEventPhone, .thbEventEmail{
+    height: 15px;
+    font-size: 10px;
+    }
+
+    #moreEvents {
+    font-size: 14px;
+    }
+}
