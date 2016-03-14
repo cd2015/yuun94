@@ -78,8 +78,9 @@
 
 	   <section class="mainSection">
             
-            <article class="LeftAds">
+            <article class="LeftAds time">
                 &nbsp;
+                <h5>Sowed</h5>
             </article>
             <article class="CentreSection">
                 <section class="mono-mainSec">
@@ -91,6 +92,7 @@
                                 <li><a href="#tab2">View Business</a></li>
                                 <li><a href="#tab3">Add Event</a></li>
                                 <li><a href="#tab4">View Events</a></li>
+                                <li></li>
                             </ul>
                             
                             <div class="tab-content">
