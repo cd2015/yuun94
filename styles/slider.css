@@ -1,0 +1,36 @@
+#slides {
+	width:1350px;
+	height:500px;
+	float:left;
+	margin:25px 0px 15px 20px;
+	overflow:hidden;
+	background-color:#000;
+}
+
+#slides .slide img {
+	position:absolute;
+}
+
+.slideText {
+	position:absolute;
+	width:1350px;
+	margin:25px 0px 0px 30px;
+	z-index:600;
+}
+
+.slideText h1 {
+	font-size:40px;
+	font-style:italic;
+	padding:0px 0px 10px 0px;
+	font-weight:bold;
+	color:#662046;
+	box-shadow: 0px 1px 20px 2px #662046;
+}
+
+.slideText p {
+	font-size:1.5em;
+	padding:0px;
+	font-weight:normal;
+	line-height:1.4em;
+	color:#ffffff;
+}

@@ -1,0 +1,2 @@
+[25-Feb-2016 07:06:12 America/New_York] PHP Warning:  require_once(../includes/header.php): failed to open stream: No such file or directory in /home/yuunga/public_html/agriculture/index.php on line 45
+[25-Feb-2016 07:06:12 America/New_York] PHP Fatal error:  require_once(): Failed opening required '../includes/header.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/yuunga/public_html/agriculture/index.php on line 45

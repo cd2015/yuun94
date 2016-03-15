@@ -58,16 +58,43 @@
                         </div>
                     </div>
                 </article>
+                <article>
+
+                    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                    <!-- Responsive  Yuunga One -->
+                    <ins class="adsbygoogle"
+                         style="display:block"
+                         data-ad-client="ca-pub-8755342140590314"
+                         data-ad-slot="7871657387"
+                         data-ad-format="auto"></ins>
+                    <script>
+                    (adsbygoogle = window.adsbygoogle || []).push({});
+                    </script>
+                </article>
             </div>
             <!-- / container -->
         </section>
 
         <section class="mainSection">
-            <article style="width:22%" class="LeftAds">
+            <article style="width:25%" class="LeftAds">
 
                 <a href="https://aromahoneytoffee.wordpress.com/">
-                    <img src="../images/ads/arometoffee.gif" style="width:100%;margin-top:80px"></img>
+                    <img src="../images/ads/arometoffee.gif" style="width:100%;"></img>
                 </a>
+
+            </br></br>
+
+            <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                    <!-- Responsive  Yuunga One -->
+                    <ins class="adsbygoogle"
+                         style="display:block"
+                         data-ad-client="ca-pub-8755342140590314"
+                         data-ad-slot="7871657387"
+                         data-ad-format="auto"></ins>
+                    <script>
+                    (adsbygoogle = window.adsbygoogle || []).push({});
+                    </script>
+            
             </article>
 
             <article class="CentreSection">
@@ -129,7 +156,7 @@
 
                 </section>
             </article>
-            <article style="width:18%" class="RightAds">
+            <article style="width:15%" class="RightAds">
                 &nbsp;   
             </article>
 

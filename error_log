@@ -1,0 +1,9 @@
+[14-Dec-2015 07:35:04 America/New_York] PHP Warning:  require_once(/home/yuunga/public_html/slider.php): failed to open stream: No such file or directory in /home/yuunga/public_html/index.php on line 172
+[14-Dec-2015 07:35:04 America/New_York] PHP Fatal error:  require_once(): Failed opening required '/home/yuunga/public_html/slider.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/yuunga/public_html/index.php on line 172
+[15-Feb-2016 14:52:37 America/New_York] PHP Warning:  mysqli::mysqli(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/yuunga/public_html/includes/db_connection.php on line 9
+[15-Feb-2016 14:54:17 America/New_York] PHP Warning:  mysqli::mysqli(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/yuunga/public_html/includes/db_connection.php on line 9
+[15-Feb-2016 14:55:52 America/New_York] PHP Warning:  mysqli::mysqli(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/yuunga/public_html/includes/db_connection.php on line 9
+[15-Feb-2016 14:56:11 America/New_York] PHP Warning:  mysqli::mysqli(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/yuunga/public_html/includes/db_connection.php on line 9
+[15-Feb-2016 14:58:04 America/New_York] PHP Warning:  mysqli::mysqli(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/yuunga/public_html/includes/db_connection.php on line 9
+[15-Feb-2016 14:58:16 America/New_York] PHP Warning:  mysqli::mysqli(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/yuunga/public_html/includes/db_connection.php on line 9
+[15-Feb-2016 15:00:07 America/New_York] PHP Warning:  mysqli::mysqli(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/yuunga/public_html/includes/db_connection.php on line 9

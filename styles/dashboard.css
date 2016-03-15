@@ -1,0 +1,40 @@
+.dashMenu{
+    padding: 10px;
+    width:170px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+	text-align:center;
+	
+	
+}
+
+.dashMenu:hover{
+	background-color: rgba(216,132,178,0.3) ;
+    font-weight: bold;
+}
+
+#logoutMan{
+	width:300px;
+}
+
+#Titt{
+	width: 400px;
+	color: #662046;
+}
+
+#dashBMenu{
+	width:340px;
+}	
+
+
+#businessNeeded{
+	width:400px;
+	float:left;
+}
+
+#businessInNeed {
+	width:400px;
+	float:right;
+}
