@@ -1,0 +1,228 @@
+<script type="text/javascript">
+    //<![CDATA[
+    var map;
+    var markers = [];
+    var infoWindow;
+    var locationSelect;
+
+    function load() {
+      map = new google.maps.Map(document.getElementById("map"), {
+        center: new google.maps.LatLng(1.3890719,32.8052108), //map of Uganda
+        zoom: 7,
+        mapTypeId: 'roadmap',
+        mapTypeControlOptions: {style: google.maps.MapTypeControlStyle.DROPDOWN_MENU}
+      });
+      infoWindow = new google.maps.InfoWindow();
+
+      locationSelect = document.getElementById("locationSelect");
+      console.log(locationSelect);
+      locationSelect.onchange = function() {
+        var markerNum = locationSelect.options[locationSelect.selectedIndex].value;
+        if (markerNum != "none"){
+          google.maps.event.trigger(markers[markerNum], 'click');
+        }
+      };
+   }
+
+   function searchLocations() {
+     var address = document.getElementById("addressInput").value;
+	 var geocoder = new google.maps.Geocoder();
+     geocoder.geocode({address: address}, function(results, status) {
+       if (status == google.maps.GeocoderStatus.OK) {
+        searchLocationsNear(results[0].geometry.location);
+       } else {
+         alert(address + ' not found, Please search with a name of a place nearby');
+       }
+     });
+   }
+
+   function clearLocations() {
+     infoWindow.close();
+     for (var i = 0; i < markers.length; i++) {
+       markers[i].setMap(null);
+     }
+     markers.length = 0;
+
+     locationSelect.innerHTML = "";
+     var option = document.createElement("option");
+     option.value = "none";
+     option.innerHTML = "See all results:";
+     locationSelect.appendChild(option);
+   }
+
+   function searchLocationsNear(center) {
+     clearLocations();
+
+     var radius = document.getElementById('radiusSelect').value; //assign js variable to the html radius text value
+	 var category = document.getElementById('sub_cat').value;	//assign js variable to the html category select value
+     var searchUrl = 'nearbyBiz.php?lat=' + center.lat() + '&lng=' + center.lng() + '&radius=' + radius + '&category=' + category; //create url from values passed on
+	 
+     console.log(searchUrl);
+
+	 downloadUrl(searchUrl, function(data) {
+       
+	   
+	   //<marker name="Makindye II Parish Restuarant" address="Muswangali, Salaama Rd" lat="0.281314" lng="32.577461" type="restaurant" />
+	   
+	   var xml = parseXml(data);
+	  
+	  
+	  
+       var markerNodes = xml.documentElement.getElementsByTagName("marker");
+	   	   
+       var bounds = new google.maps.LatLngBounds();
+	   	
+		
+       for (var i = 0; i < markerNodes.length; i++) {
+         var name = markerNodes[i].getAttribute("name");
+         var address = markerNodes[i].getAttribute("address");
+         var distance = parseFloat(markerNodes[i].getAttribute("distance"));
+         var latlng = new google.maps.LatLng(
+              parseFloat(markerNodes[i].getAttribute("lat")),
+              parseFloat(markerNodes[i].getAttribute("lng")));
+
+         createOption(name, distance, i);
+         createMarker(latlng, name, address);
+         bounds.extend(latlng);
+		 
+       }
+	   
+       map.fitBounds(bounds);
+	      	   
+       locationSelect.style.visibility = "visible";
+       locationSelect.style.display = "block";
+       locationSelect.onchange = function() {
+	   
+         var markerNum = locationSelect.options[locationSelect.selectedIndex].value;
+		 
+         google.maps.event.trigger(markers[markerNum], 'click');
+		 
+       };
+      });
+    }
+
+    function createMarker(latlng, name, address) {
+      var html = "<b>" + name + "</b> <br/>" + address;
+      var marker = new google.maps.Marker({
+        map: map,
+        position: latlng
+      });
+      google.maps.event.addListener(marker, 'click', function() {
+        infoWindow.setContent(html);
+        infoWindow.open(map, marker);
+      });
+      markers.push(marker);
+    }
+
+    function createOption(name, distance, num) {
+      var option = document.createElement("option");
+      option.value = num;
+      option.innerHTML = name + "(" + distance.toFixed(1) + ")";
+      locationSelect.appendChild(option);
+    }
+
+    function downloadUrl(url, callback) {
+      var request = window.ActiveXObject ?
+          new ActiveXObject('Microsoft.XMLHTTP') :
+          new XMLHttpRequest;
+
+      request.onreadystatechange = function() {
+        if (request.readyState == 4) {
+          request.onreadystatechange = doNothing;
+          callback(request.responseText, request.status);
+        }
+      };
+
+      request.open('GET', url, true);
+      request.send(null);
+    }
+
+    function parseXml(str) {
+      if (window.ActiveXObject) {
+        var doc = new ActiveXObject('Microsoft.XMLDOM');
+        doc.loadXML(str);
+        return doc;
+      } else if (window.DOMParser) {
+        return (new DOMParser).parseFromString(str, 'text/xml');
+      }
+    }
+
+    function doNothing() {}
+
+    //]]>
+  </script>
+  
+
+  <body onload="load()">
+       
+  <div id="findlocation">
+    
+    </div>
+
+    <div>
+      <div class="locationDiv">
+      <label>Your location?</label>
+         <div>
+          <fieldset  class="locationLoc">
+            <input type="text" id="addressInput" size="20" maxlength="100" placeholder="Name of Area"/>
+          </fieldset>
+         </div>
+       </div>
+       <div class="locationDiv" id="nearCat">
+         <label>Looking For</label>
+       <div>
+          <fieldset id="CatLoc" class="subject">
+              <select id="category" name="category" style="width: 230px;">
+                  <option value="" selected="selected">--Select category--</option>
+                  <option value="1">Accommodation</option><option value="2">Business</option><option value="3">Education</option>
+                  <option value="4">Entertainment</option><option value="5">Food & Drinks</option><option value="6">Health</option>
+                  <option value="7">Shopping</option><option value="8">Sports & Outdoor</option>
+                  <option value="9">Tour & Travel</option><option value="10">Vehicle</option><option value="11">Worship</option>
+              </select>
+          </fieldset>
+      </div>
+
+
+      <div>
+          <fieldset id="subCatLoc" class="subject">
+              <select id="sub_cat" name="sub_cat" style="display: none; width: 100%" >
+              </select>
+          </fieldset>
+      </div>
+      </div>
+      <div class="locationDiv">
+      <label>With in</label>
+      <div>
+        <fieldset class="siteLoc">
+            <select id="radiusSelect">
+              <option value="5" selected>5Km</option>
+              <option value="10">10Km</option>
+              <option value="20">20km</option>
+              <option value="50">50km</option>
+              <option value="100">100km</option>
+              <option value="500">500km</option>
+              <option value="5000">5000km</option>
+              <option value="50000">50000km</option>
+              <option value="5000000">5000000km</option>
+            </select>
+          </fieldset>
+        </div>
+      </div>
+      <div class="locationDiv">
+        <div>
+          <input id="seaLocBtn" type="button" onclick="searchLocations()" value="Search"/>
+        </div>
+      </div>
+        
+    </div>
+    <div id="map">
+    </div>
+    
+        
+        
+   
+        
+
+  </body>
+
+

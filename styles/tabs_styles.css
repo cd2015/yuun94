@@ -1,0 +1,500 @@
+/*----- Tabs -----*/
+.tabs {
+    width:100%;
+    display:inline-block;
+    background-color:rgba(102,87,95,0.3);
+    padding: 10px;
+       
+}
+ 
+    /*----- Tab Links -----*/
+    /* Clearfix */
+    
+    .tab-links{
+        width: 100%;
+        background-color:rgba(102,87,95,0.3);
+        border-radius: 3px;
+        margin-bottom: 2px;
+    }
+   
+    .tab-links:after {
+        display:block;
+        clear:both;
+        content:'';
+       
+    } 
+ 
+    .tab-links li {
+        margin:6px 3px;
+        float:left;
+        list-style:none;
+        //width: 100px;
+        
+        
+    }
+ 
+        .tab-links a {
+            //width: 100px;
+            padding:9px 15px;
+            display:inline-block;
+            border-radius:3px 3px 0px 0px;
+            background:#662046;
+            font-size:16px;
+            font-weight:600;
+            color:#fff;
+            transition:all linear 0.15s;
+        }
+ 
+        .tab-links a:hover {
+            background:#d884b2;
+            text-decoration:none;
+        }
+ 
+    li.active a, li.active a:hover {
+        background:#fff;
+        color:#4c4c4c;
+        font-weight:bold;
+    }
+ 
+    /*----- Content of Tabs -----*/
+    .tab-content {
+        padding:15px;
+        border-radius:3px;
+        background-color:rgba(102,87,95,0.3);
+        color: #000;
+        
+        
+    }
+ 
+        .tab {
+            display:none;
+        }
+ 
+        .tab.active {
+            display:block;
+            //background-color:rgba(102,87,95,0.3);
+        }
+
+    .tab h2 {
+    padding: 0px;
+    }
+
+    /*------------- Social Links -------------------*/
+    .fb-like{
+        width: 37%;
+        margin-left:5%;
+        margin-bottom: 2px;
+    }
+
+    .fb-share-button{
+        margin-left:15%;
+    }
+
+    #whatsappShare{
+        padding:5px;
+        background-color:#1E9F11;
+        border-radius:5px;
+        color:#fff;
+    }
+
+
+
+
+/* Responsive design specifications */
+
+
+
+@media screen and (max-width: 1200px) {
+    .fb-share-button {
+        margin-left: 28%;
+    }
+
+    .fb-like{
+        width: 100%;
+        
+    }
+}
+
+@media screen and (max-width: 930px) {
+    .tab-links li {
+    margin: 7px 7px;
+    }
+
+    .tab-links a {
+    padding: 7px 7px;
+    font-size: 16px;
+    
+    }
+
+    .tab-links{
+        padding: 8px;
+        margin-top: 8px;
+    }
+
+    .tabs {
+    padding: 8px;
+    }
+
+    .tab-content {
+    padding: 8px;
+    }
+
+    .tab h2 {
+    margin: 7px;
+    font-size: 22px;
+    padding: 0px;
+    }
+
+    .area {
+    margin: 8px;
+    padding: 8px;
+    
+    }
+
+    .areaName{
+        margin: 8px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .tab-links li {
+    margin: 6px 6px;
+    }
+
+    .tab-links a {
+    padding: 6px 6px;
+    font-size: 14px;
+    
+    }
+
+    .tab-links{
+        padding: 7px;
+        margin-top: 7px;
+    }
+
+    .tabs {
+    padding: 7px;
+    }
+
+    .tab-content {
+    padding: 7px;
+    }
+
+    .tab h2 {
+    margin: 6px;
+    font-size: 22px;
+    }
+
+    .area {
+    margin: 7px;
+    padding: 7px;
+    
+    }
+
+    .areaName{
+        margin: 7px;
+    }
+
+    .fb-share-button {
+        margin-left: 20%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .fb-share-button {
+        margin-left: 46%;
+        margin-right: 100%;
+    }
+    .tab-links li {
+    margin: 5px 5px;
+    }
+
+    .tab-links a {
+    padding: 5px 5px;
+    font-size: 14px;
+    
+    }
+
+    .tab-links{
+        padding: 6px;
+        margin-top: 6px;
+    }
+
+    .tabs {
+    padding: 6px;
+    }
+
+    .tab-content {
+    padding: 6px;
+    }
+
+    .tab h2 {
+    margin: 5px;
+    font-size: 22px;
+    padding: 0px;
+    }
+
+    .area {
+    margin: 6px;
+    padding: 6px;
+    
+    }
+
+    .areaName{
+        margin: 6px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .tab-links li {
+    margin: 4px 4px;
+    }
+
+    .tab-links a {
+    padding: 4px 4px;
+    font-size: 12px;
+    
+    }
+
+    .tab-links{
+        padding: 5px;
+        margin-top: 5px;
+    }
+
+    .tabs {
+    padding: 5px;
+    }
+
+    .tab-content {
+    padding: 5px;
+    }
+
+    .tab h2 {
+    margin: 4px;
+    font-size: 20px;
+    padding: 0px;
+    }
+
+    .area {
+    margin: 5px;
+    padding: 5px;
+    
+    }
+
+    .areaName{
+        margin: 5px;
+    }
+
+    .fb-share-button {
+    margin-left: 8%;
+    margin-right: 100%;
+    margin-bottom: 2px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .tab-links li {
+    margin: 3px 3px;
+    }
+
+    .tab-links a {
+    padding: 3px 3px;
+    font-size: 12px;
+    
+    }
+
+    .tab-links{
+        padding: 4px;
+        margin-top: 4px;
+    }
+
+    .tabs {
+    padding: 4px;
+    }
+
+    .tab-content {
+    padding: 4px;
+    }
+
+    .tab h2 {
+    margin: 3px;
+    font-size: 20px;
+    padding: 0px;
+    }
+
+    .area {
+    margin: 4px;
+    padding: 4px;
+    
+    }
+
+    .areaName{
+        margin: 4px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .tab-links li {
+    margin: 2px 2px;
+    }
+
+    .tab-links a {
+    padding: 2px 2px;
+    font-size: 12px;
+    
+    }
+
+    .tab-links{
+        padding: 3px;
+        margin-top: 3px;
+    }
+
+    .tabs {
+    padding: 3px;
+    }
+
+    .tab-content {
+    padding: 3px;
+    }
+
+    .tab h2 {
+    margin: 3px;
+    font-size: 20px;
+    padding: 0px;
+    }
+
+    .area {
+    margin: 3px;
+    padding: 3px;
+    
+    }
+
+    .areaName{
+        margin: 3px;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .tab-links li {
+    margin: 1px 1px;
+    }
+
+    .tab-links a {
+    padding: 1px 1px;
+    font-size: 11px;
+    
+    }
+
+    .tab-links{
+        padding: 2px;
+        margin-top: 2px;
+    }
+
+    .tabs {
+    padding: 2px;
+    }
+
+    .tab-content {
+    padding: 2px;
+    }
+
+    .tab h2 {
+    margin: 1px;
+    font-size: 18px;
+    padding: 1px;
+    }
+
+    .area {
+    margin: 2px;
+    padding: 2px;
+    
+    }
+
+    .areaName{
+        margin: 2px;
+    }
+}
+
+@media screen and (max-width: 250px) {
+    .tab-links li {
+    margin: 1px 1px;
+    }
+
+    .tab-links a {
+    padding: 1px 1px;
+    font-size: 11px;
+    
+    }
+
+    .tab-links{
+        padding: 2px;
+        margin-top: 2px;
+    }
+
+    .tabs {
+    padding: 2px;
+    }
+
+    .tab-content {
+    padding: 2px;
+    }
+
+    .tab h2 {
+    margin: 1px;
+    font-size: 18px;
+    padding: 0px;
+    }
+
+    .area {
+    margin: 2px;
+    padding: 2px;
+    
+    }
+
+    .areaName{
+        margin: 2px;
+    }
+}
+
+@media screen and (max-width: 200px) {
+    .tab-links li {
+    margin: 1px 1px;
+    }
+
+    .tab-links a {
+    padding: 1px 1px;
+    font-size: 10px;
+    
+    }
+
+    .tab-links{
+        padding: 1px;
+        margin-top: 1px;
+    }
+
+    .tabs {
+    padding: 1px;
+    }
+
+    .tab-content {
+    padding: 2px;
+    }
+
+    .tab h2 {
+    margin: 1px;
+    font-size: 16px;
+    padding: 0px;
+    }
+
+    .area {
+    margin: 1px;
+    padding: 1px;
+    
+    }
+
+    .areaName{
+        margin: 1px;
+    }
+}
+
+

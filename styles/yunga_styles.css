@@ -1,0 +1,193 @@
+#Rated{
+    color: #662046;
+}
+
+
+#categoriesPane{
+    padding-left:15px;
+    padding-right:15px;
+    // width: 10px;
+
+}
+
+.categoryBox:hover{
+    background-color:rgba(0,0,0,0.6);
+}
+
+
+.featuredBizimg{
+    width: 290px;
+    height: 174px;
+}
+
+.featuredBizname{
+    padding-bottom: 10px;
+    padding-top: 10px;
+    height: 40px;
+}
+
+.featuredBizaddress{
+    padding-bottom: 5px;
+    padding-top: 5px;
+    height: 26px
+}
+.featuredBizContact{
+    padding-bottom: 3px;
+    padding-top:3px; 
+    height: 22px;
+}
+
+
+
+.featuredBizRate{
+    height: 12px;
+    margin-bottom: 3px;
+
+}
+
+
+.resDesc:hover{
+    text-decoration: none;
+
+}
+
+
+.DetplaceName{
+    padding-bottom: 0px;
+    text-align: left;
+}
+
+.Detlocation{
+
+    font-size: 16px;
+}
+
+.Detstars{
+    font-size: 13px;
+
+}
+
+.DetAbout{
+    font-size: 12px;
+}
+
+.DetPost, .DetWeb, .DetEmail, .DetMob, .DetTel, .DetCategory{
+    font-size: 16px;
+}
+
+
+
+
+
+#searchBox:hover{
+    border-color: #d884b2;
+}
+
+#dropdown{
+    position: absolute;
+    width: 690px;
+    display:none;
+    background-color: rgba(102,32,70,0.6);
+    margin-left: -10px;
+    margin-top: 0px;
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    z-index: 205;
+    cursor: pointer;
+} 
+
+
+#menubrowse:hover ul{display: block;}
+
+
+
+.dropItem{
+    width:230px;
+    border-radius: 6px;
+    padding: 15px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.dropItem:hover{
+    background-color: #d884b2;
+}
+
+.dropItem h4{
+    font-weight: normal;
+}
+
+
+
+#menubrowse:hover{
+
+    /*   background-color: rgba(216,132,178,0.3) ; */
+    font-weight: bold;
+}
+
+.categoryIcon{
+    padding: 4px;
+    background-color: #662046;
+    border-radius: 6px;
+    height: 25px;
+    width: 25px;
+    float: left;
+    margin-right: 5px;
+    color: #fff;
+}
+
+.CatIcon{
+    border-radius: 6px;
+}
+
+#clickleft:hover{
+    background-color: rgba(0,0,0,0.8);
+    color: rgba(255,255,255,0.8);
+}
+
+
+
+#clickright:hover{
+    background-color: rgba(0,0,0,0.8);
+    color: rgba(255,255,255,0.8);
+}
+
+
+
+
+
+#Tit{
+    color: #662046;
+}
+
+
+
+#locIcon{
+    color: #662046;
+}
+
+#backIcon{
+    font-size:40px;
+}
+
+#homeAds, #featuredEvents{
+    min-height:150px;
+    margin-top:30px;
+    margin-bottom:30px;
+}
+
+
+@media screen and (max-width: 400px) {
+    #homeAds, #featuredEvents{
+        min-height:50px;
+    }
+}
+
+@media screen and (max-width: 200px) {
+    #Tit {
+        font-size: 20px;
+    }
+}
+

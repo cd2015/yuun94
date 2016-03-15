@@ -51,7 +51,7 @@ if ($count == 0) {
                         </div>
                     </a>
                 </li>
-                <li class="bizDetail" id='bizDetail<?php echo $counter; ?>' style="display:none">
+                <li class="bizDetail" id='CoffeeCafeKla<?php echo $counter; ?>' style="display:none">
 
                     <div class="resplaceName">
                         <h2 class="DetplaceName"><?php echo $result ['business_name']; ?></h2>
@@ -128,7 +128,7 @@ if ($count == 0) {
             while ($result = mysqli_fetch_assoc($query)) {
                 ?>       
                 <li class="bizThumb" id='bizThumb<?php echo $counter; ?>'>
-                    <a href='#CoffeeCafeKla<?php echo $counter; ?>' class="bizzThumb">
+                    <a href='#CoffeeCafeEbb<?php echo $counter; ?>' class="bizzThumb">
                         <div class="thumbImg">
                             <img width="100%" src ="../images/uploads/<?php echo 'thumb_' . $result['logo']; ?>"/>
                         </div>
@@ -159,7 +159,7 @@ if ($count == 0) {
                         </div>
                     </a>
                 </li>
-                <li class="bizDetail" id='CoffeeCafeKla<?php echo $counter; ?>' style="display:none">
+                <li class="bizDetail" id='CoffeeCafeEbb<?php echo $counter; ?>' style="display:none">
 
                     <div class="resplaceName">
                         <h2 class="DetplaceName"><?php echo $result ['business_name']; ?></h2>
@@ -239,7 +239,7 @@ if ($count == 0) {
             while ($result = mysqli_fetch_assoc($query)) {
                 ?>       
                 <li class="bizThumb" id='bizThumb<?php echo $counter; ?>'>
-                    <a href='#CoffeeCafeEbb<?php echo $counter; ?>' class="bizzThumb">
+                    <a href='#CoffeeCafeFort<?php echo $counter; ?>' class="bizzThumb">
                         <div class="thumbImg">
                             <img width="100%" src ="../images/uploads/<?php echo 'thumb_' . $result['logo']; ?>"/>
                         </div>
@@ -270,7 +270,7 @@ if ($count == 0) {
                         </div>
                     </a>
                 </li>
-                <li class="bizDetail" id='CoffeeCafeEbb<?php echo $counter; ?>' style="display:none">
+                <li class="bizDetail" id='CoffeeCafeFort<?php echo $counter; ?>' style="display:none">
 
                     <div class="resplaceName">
                         <h2 class="DetplaceName"><?php echo $result ['business_name']; ?></h2>

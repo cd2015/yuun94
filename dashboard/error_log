@@ -1,0 +1,168 @@
+[18-Dec-2015 00:33:32 America/New_York] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/yuunga/public_html/dashboard/view_business.php on line 9
+[18-Dec-2015 00:33:32 America/New_York] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/yuunga/public_html/dashboard/view_business.php on line 19
+[18-Dec-2015 00:33:32 America/New_York] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/yuunga/public_html/dashboard/view_event.php on line 9
+[18-Dec-2015 00:33:32 America/New_York] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/yuunga/public_html/dashboard/view_event.php on line 21
+[18-Dec-2015 00:34:21 America/New_York] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/yuunga/public_html/dashboard/view_business.php on line 9
+[18-Dec-2015 00:34:21 America/New_York] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/yuunga/public_html/dashboard/view_business.php on line 19
+[18-Dec-2015 00:34:21 America/New_York] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/yuunga/public_html/dashboard/view_event.php on line 9
+[18-Dec-2015 00:34:21 America/New_York] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/yuunga/public_html/dashboard/view_event.php on line 21
+[19-Dec-2015 00:57:21 America/New_York] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/yuunga/public_html/dashboard/view_business.php on line 9
+[19-Dec-2015 00:57:21 America/New_York] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/yuunga/public_html/dashboard/view_business.php on line 19
+[19-Dec-2015 00:57:21 America/New_York] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/yuunga/public_html/dashboard/view_event.php on line 9
+[19-Dec-2015 00:57:21 America/New_York] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/yuunga/public_html/dashboard/view_event.php on line 21
+[19-Dec-2015 01:13:29 America/New_York] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/yuunga/public_html/dashboard/view_business.php on line 9
+[19-Dec-2015 01:13:29 America/New_York] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/yuunga/public_html/dashboard/view_business.php on line 19
+[19-Dec-2015 01:13:29 America/New_York] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/yuunga/public_html/dashboard/view_event.php on line 9
+[19-Dec-2015 01:13:29 America/New_York] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/yuunga/public_html/dashboard/view_event.php on line 21
+[19-Dec-2015 03:30:09 America/New_York] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/yuunga/public_html/dashboard/view_business.php on line 9
+[19-Dec-2015 03:30:09 America/New_York] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/yuunga/public_html/dashboard/view_business.php on line 19
+[19-Dec-2015 03:30:09 America/New_York] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/yuunga/public_html/dashboard/view_event.php on line 9
+[19-Dec-2015 03:30:09 America/New_York] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/yuunga/public_html/dashboard/view_event.php on line 21
+[20-Dec-2015 03:03:38 America/New_York] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/yuunga/public_html/dashboard/view_business.php on line 9
+[20-Dec-2015 03:03:38 America/New_York] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/yuunga/public_html/dashboard/view_business.php on line 19
+[20-Dec-2015 03:03:38 America/New_York] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/yuunga/public_html/dashboard/view_event.php on line 9
+[20-Dec-2015 03:03:38 America/New_York] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/yuunga/public_html/dashboard/view_event.php on line 21
+[20-Dec-2015 03:11:59 America/New_York] PHP Warning:  imagejpeg(uploads/img-20140721-wa0004_8240794544.jpg): failed to open stream: No such file or directory in /home/yuunga/public_html/dashboard/processupload.php on line 142
+[20-Dec-2015 03:11:59 America/New_York] PHP Warning:  imagejpeg(uploads/thumb_img-20140721-wa0004_8240794544.jpg): failed to open stream: No such file or directory in /home/yuunga/public_html/dashboard/processupload.php on line 142
+[20-Dec-2015 03:15:29 America/New_York] PHP Warning:  imagejpeg(uploads/img-20140721-wa0004_4165375516.jpg): failed to open stream: No such file or directory in /home/yuunga/public_html/dashboard/processupload.php on line 142
+[20-Dec-2015 03:15:29 America/New_York] PHP Warning:  imagejpeg(uploads/thumb_img-20140721-wa0004_4165375516.jpg): failed to open stream: No such file or directory in /home/yuunga/public_html/dashboard/processupload.php on line 142
+[20-Dec-2015 03:55:27 America/New_York] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/yuunga/public_html/dashboard/view_business.php on line 9
+[20-Dec-2015 03:55:27 America/New_York] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/yuunga/public_html/dashboard/view_business.php on line 19
+[20-Dec-2015 03:55:28 America/New_York] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/yuunga/public_html/dashboard/view_event.php on line 9
+[20-Dec-2015 03:55:28 America/New_York] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/yuunga/public_html/dashboard/view_event.php on line 21
+[20-Dec-2015 11:07:37 America/New_York] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/yuunga/public_html/dashboard/view_business.php on line 9
+[20-Dec-2015 11:07:37 America/New_York] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/yuunga/public_html/dashboard/view_business.php on line 19
+[20-Dec-2015 11:07:37 America/New_York] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/yuunga/public_html/dashboard/view_event.php on line 9
+[20-Dec-2015 11:07:37 America/New_York] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/yuunga/public_html/dashboard/view_event.php on line 21
+[20-Dec-2015 11:08:48 America/New_York] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/yuunga/public_html/dashboard/view_business.php on line 9
+[20-Dec-2015 11:08:48 America/New_York] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/yuunga/public_html/dashboard/view_business.php on line 19
+[20-Dec-2015 11:08:48 America/New_York] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/yuunga/public_html/dashboard/view_event.php on line 9
+[20-Dec-2015 11:08:48 America/New_York] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/yuunga/public_html/dashboard/view_event.php on line 21
+[20-Dec-2015 15:28:25 America/New_York] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/yuunga/public_html/dashboard/view_business.php on line 9
+[20-Dec-2015 15:28:25 America/New_York] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/yuunga/public_html/dashboard/view_business.php on line 19
+[20-Dec-2015 15:28:25 America/New_York] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/yuunga/public_html/dashboard/view_event.php on line 9
+[20-Dec-2015 15:28:25 America/New_York] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/yuunga/public_html/dashboard/view_event.php on line 21
+[20-Dec-2015 15:30:47 America/New_York] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/yuunga/public_html/dashboard/view_business.php on line 9
+[20-Dec-2015 15:30:47 America/New_York] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/yuunga/public_html/dashboard/view_business.php on line 19
+[20-Dec-2015 15:30:47 America/New_York] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/yuunga/public_html/dashboard/view_event.php on line 9
+[20-Dec-2015 15:30:47 America/New_York] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/yuunga/public_html/dashboard/view_event.php on line 21
+[20-Dec-2015 15:35:57 America/New_York] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/yuunga/public_html/dashboard/view_business.php on line 9
+[20-Dec-2015 15:35:57 America/New_York] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/yuunga/public_html/dashboard/view_business.php on line 19
+[20-Dec-2015 15:35:57 America/New_York] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/yuunga/public_html/dashboard/view_event.php on line 9
+[20-Dec-2015 15:35:57 America/New_York] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/yuunga/public_html/dashboard/view_event.php on line 21
+[21-Dec-2015 04:21:57 America/New_York] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/yuunga/public_html/dashboard/view_business.php on line 9
+[21-Dec-2015 04:21:57 America/New_York] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/yuunga/public_html/dashboard/view_business.php on line 19
+[21-Dec-2015 04:21:58 America/New_York] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/yuunga/public_html/dashboard/view_event.php on line 9
+[21-Dec-2015 04:21:58 America/New_York] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/yuunga/public_html/dashboard/view_event.php on line 21
+[27-Dec-2015 15:14:15 America/New_York] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/yuunga/public_html/dashboard/view_business.php on line 9
+[27-Dec-2015 15:14:15 America/New_York] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/yuunga/public_html/dashboard/view_business.php on line 19
+[27-Dec-2015 15:14:15 America/New_York] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/yuunga/public_html/dashboard/view_event.php on line 9
+[27-Dec-2015 15:14:15 America/New_York] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/yuunga/public_html/dashboard/view_event.php on line 19
+[27-Dec-2015 15:18:04 America/New_York] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/yuunga/public_html/dashboard/view_business.php on line 9
+[27-Dec-2015 15:18:04 America/New_York] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/yuunga/public_html/dashboard/view_business.php on line 19
+[28-Dec-2015 04:11:32 America/New_York] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/yuunga/public_html/dashboard/processupload.php on line 80
+[29-Dec-2015 15:18:22 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/yuunga/public_html/dashboard/index.php:54) in /home/yuunga/public_html/dashboard/index.php on line 137
+[30-Dec-2015 03:48:24 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/yuunga/public_html/dashboard/index.php:54) in /home/yuunga/public_html/dashboard/index.php on line 137
+[30-Dec-2015 06:29:08 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/yuunga/public_html/dashboard/index.php:54) in /home/yuunga/public_html/dashboard/index.php on line 137
+[30-Dec-2015 06:32:18 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/yuunga/public_html/dashboard/index.php:54) in /home/yuunga/public_html/dashboard/index.php on line 137
+[31-Dec-2015 01:26:20 America/New_York] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/yuunga/public_html/dashboard/view_business.php on line 9
+[31-Dec-2015 01:26:20 America/New_York] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/yuunga/public_html/dashboard/view_business.php on line 19
+[31-Dec-2015 01:26:20 America/New_York] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/yuunga/public_html/dashboard/view_event.php on line 9
+[31-Dec-2015 01:26:20 America/New_York] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/yuunga/public_html/dashboard/view_event.php on line 19
+[31-Dec-2015 01:26:47 America/New_York] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/yuunga/public_html/dashboard/view_business.php on line 9
+[31-Dec-2015 01:26:47 America/New_York] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/yuunga/public_html/dashboard/view_business.php on line 19
+[31-Dec-2015 01:26:47 America/New_York] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/yuunga/public_html/dashboard/view_event.php on line 9
+[31-Dec-2015 01:26:47 America/New_York] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/yuunga/public_html/dashboard/view_event.php on line 19
+[31-Dec-2015 01:30:25 America/New_York] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/yuunga/public_html/dashboard/view_event.php on line 9
+[31-Dec-2015 01:30:25 America/New_York] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/yuunga/public_html/dashboard/view_event.php on line 19
+[31-Dec-2015 01:31:36 America/New_York] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/yuunga/public_html/dashboard/update_business.php on line 8
+[31-Dec-2015 01:31:36 America/New_York] PHP Warning:  mysqli::prepare(): Couldn't fetch mysqli in /home/yuunga/public_html/dashboard/update_business.php on line 39
+[31-Dec-2015 01:31:36 America/New_York] PHP Fatal error:  Call to a member function bind_param() on a non-object in /home/yuunga/public_html/dashboard/update_business.php on line 40
+[31-Dec-2015 01:32:43 America/New_York] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/yuunga/public_html/dashboard/view_event.php on line 9
+[31-Dec-2015 01:32:43 America/New_York] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/yuunga/public_html/dashboard/view_event.php on line 19
+[31-Dec-2015 01:33:47 America/New_York] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/yuunga/public_html/dashboard/delete_business.php on line 8
+[31-Dec-2015 01:33:47 America/New_York] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/yuunga/public_html/dashboard/delete_business.php on line 84
+[31-Dec-2015 01:33:47 America/New_York] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/yuunga/public_html/dashboard/delete_business.php on line 86
+[31-Dec-2015 01:35:19 America/New_York] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/yuunga/public_html/dashboard/del_bus_confirm.php on line 8
+[31-Dec-2015 01:35:19 America/New_York] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/yuunga/public_html/dashboard/del_bus_confirm.php on line 15
+[31-Dec-2015 01:35:19 America/New_York] PHP Warning:  main(): Couldn't fetch mysqli in /home/yuunga/public_html/dashboard/del_bus_confirm.php on line 18
+[31-Dec-2015 01:35:19 America/New_York] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home/yuunga/public_html/dashboard/del_bus_confirm.php on line 21
+[31-Dec-2015 01:36:42 America/New_York] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/yuunga/public_html/dashboard/view_event.php on line 9
+[31-Dec-2015 01:36:42 America/New_York] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/yuunga/public_html/dashboard/view_event.php on line 19
+[31-Dec-2015 01:37:02 America/New_York] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/yuunga/public_html/dashboard/view_event.php on line 9
+[31-Dec-2015 01:37:02 America/New_York] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/yuunga/public_html/dashboard/view_event.php on line 19
+[31-Dec-2015 01:45:56 America/New_York] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/yuunga/public_html/dashboard/view_event.php on line 9
+[31-Dec-2015 01:45:56 America/New_York] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/yuunga/public_html/dashboard/view_event.php on line 19
+[31-Dec-2015 01:49:29 America/New_York] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/yuunga/public_html/dashboard/view_event.php on line 9
+[31-Dec-2015 01:49:29 America/New_York] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/yuunga/public_html/dashboard/view_event.php on line 19
+[31-Dec-2015 01:50:21 America/New_York] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/yuunga/public_html/dashboard/view_event.php on line 9
+[31-Dec-2015 01:50:21 America/New_York] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/yuunga/public_html/dashboard/view_event.php on line 19
+[31-Dec-2015 01:53:20 America/New_York] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/yuunga/public_html/dashboard/update_event.php on line 8
+[31-Dec-2015 01:53:20 America/New_York] PHP Warning:  mysqli::prepare(): Couldn't fetch mysqli in /home/yuunga/public_html/dashboard/update_event.php on line 73
+[31-Dec-2015 01:53:20 America/New_York] PHP Fatal error:  Call to a member function bind_param() on a non-object in /home/yuunga/public_html/dashboard/update_event.php on line 74
+[31-Dec-2015 02:05:43 America/New_York] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/yuunga/public_html/dashboard/delete_event.php on line 8
+[31-Dec-2015 02:05:43 America/New_York] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/yuunga/public_html/dashboard/delete_event.php on line 84
+[31-Dec-2015 02:05:43 America/New_York] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/yuunga/public_html/dashboard/delete_event.php on line 86
+[31-Dec-2015 02:07:27 America/New_York] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/yuunga/public_html/dashboard/del_event_confirm.php on line 8
+[31-Dec-2015 02:07:27 America/New_York] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/yuunga/public_html/dashboard/del_event_confirm.php on line 16
+[31-Dec-2015 02:07:27 America/New_York] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home/yuunga/public_html/dashboard/del_event_confirm.php on line 26
+[31-Dec-2015 05:30:59 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/yuunga/public_html/dashboard/index.php:54) in /home/yuunga/public_html/dashboard/index.php on line 137
+[31-Dec-2015 07:50:37 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/yuunga/public_html/dashboard/index.php:54) in /home/yuunga/public_html/dashboard/index.php on line 137
+[31-Dec-2015 08:06:02 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/yuunga/public_html/dashboard/index.php:54) in /home/yuunga/public_html/dashboard/index.php on line 137
+[31-Dec-2015 08:06:28 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/yuunga/public_html/dashboard/index.php:54) in /home/yuunga/public_html/dashboard/index.php on line 137
+[31-Dec-2015 08:07:20 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/yuunga/public_html/dashboard/index.php:54) in /home/yuunga/public_html/dashboard/index.php on line 137
+[31-Dec-2015 08:07:59 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/yuunga/public_html/dashboard/index.php:54) in /home/yuunga/public_html/dashboard/index.php on line 137
+[01-Jan-2016 12:28:02 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/yuunga/public_html/dashboard/index.php:54) in /home/yuunga/public_html/dashboard/index.php on line 137
+[01-Jan-2016 12:29:09 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/yuunga/public_html/dashboard/index.php:54) in /home/yuunga/public_html/dashboard/index.php on line 137
+[01-Jan-2016 12:29:59 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/yuunga/public_html/dashboard/index.php:54) in /home/yuunga/public_html/dashboard/index.php on line 137
+[04-Jan-2016 03:01:48 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/yuunga/public_html/dashboard/index.php:54) in /home/yuunga/public_html/dashboard/index.php on line 137
+[04-Jan-2016 03:02:20 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/yuunga/public_html/dashboard/index.php:54) in /home/yuunga/public_html/dashboard/index.php on line 137
+[04-Jan-2016 03:02:42 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/yuunga/public_html/dashboard/index.php:54) in /home/yuunga/public_html/dashboard/index.php on line 137
+[04-Jan-2016 14:27:26 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/yuunga/public_html/dashboard/index.php:54) in /home/yuunga/public_html/dashboard/index.php on line 137
+[08-Jan-2016 04:22:53 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/yuunga/public_html/dashboard/index.php:54) in /home/yuunga/public_html/dashboard/add_event.php on line 232
+[11-Jan-2016 13:58:01 America/New_York] PHP Warning:  imagecreatefromjpeg(): gd-jpeg, libjpeg: recoverable error: Premature end of JPEG file
+ in /home/yuunga/public_html/dashboard/processupload.php on line 41
+[11-Jan-2016 13:58:01 America/New_York] PHP Warning:  imagecreatefromjpeg(): '/tmp/phpYDlsmc' is not a valid JPEG file in /home/yuunga/public_html/dashboard/processupload.php on line 41
+[16-Jan-2016 08:53:10 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/yuunga/public_html/dashboard/index.php:54) in /home/yuunga/public_html/dashboard/add_event.php on line 232
+[25-Jan-2016 07:03:27 America/New_York] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 20480 bytes) in /home/yuunga/public_html/dashboard/processupload.php on line 41
+[05-Feb-2016 02:18:42 America/New_York] PHP Warning:  date() expects parameter 2 to be long, string given in /home/yuunga/public_html/dashboard/view_event.php on line 47
+[05-Feb-2016 02:18:42 America/New_York] PHP Warning:  date() expects parameter 2 to be long, string given in /home/yuunga/public_html/dashboard/view_event.php on line 66
+[05-Feb-2016 02:18:42 America/New_York] PHP Warning:  date() expects parameter 2 to be long, string given in /home/yuunga/public_html/dashboard/view_event.php on line 47
+[05-Feb-2016 02:18:42 America/New_York] PHP Warning:  date() expects parameter 2 to be long, string given in /home/yuunga/public_html/dashboard/view_event.php on line 66
+[05-Feb-2016 02:18:42 America/New_York] PHP Warning:  date() expects parameter 2 to be long, string given in /home/yuunga/public_html/dashboard/view_event.php on line 47
+[05-Feb-2016 02:18:42 America/New_York] PHP Warning:  date() expects parameter 2 to be long, string given in /home/yuunga/public_html/dashboard/view_event.php on line 66
+[05-Feb-2016 02:18:42 America/New_York] PHP Warning:  date() expects parameter 2 to be long, string given in /home/yuunga/public_html/dashboard/view_event.php on line 47
+[05-Feb-2016 02:18:42 America/New_York] PHP Warning:  date() expects parameter 2 to be long, string given in /home/yuunga/public_html/dashboard/view_event.php on line 66
+[05-Feb-2016 02:18:42 America/New_York] PHP Warning:  date() expects parameter 2 to be long, string given in /home/yuunga/public_html/dashboard/view_event.php on line 47
+[05-Feb-2016 02:18:42 America/New_York] PHP Warning:  date() expects parameter 2 to be long, string given in /home/yuunga/public_html/dashboard/view_event.php on line 66
+[05-Feb-2016 02:46:39 America/New_York] PHP Warning:  date() expects parameter 2 to be long, string given in /home/yuunga/public_html/dashboard/view_event.php on line 47
+[05-Feb-2016 02:46:39 America/New_York] PHP Warning:  date() expects parameter 2 to be long, string given in /home/yuunga/public_html/dashboard/view_event.php on line 66
+[05-Feb-2016 02:46:39 America/New_York] PHP Warning:  date() expects parameter 2 to be long, string given in /home/yuunga/public_html/dashboard/view_event.php on line 47
+[05-Feb-2016 02:46:39 America/New_York] PHP Warning:  date() expects parameter 2 to be long, string given in /home/yuunga/public_html/dashboard/view_event.php on line 66
+[05-Feb-2016 02:46:39 America/New_York] PHP Warning:  date() expects parameter 2 to be long, string given in /home/yuunga/public_html/dashboard/view_event.php on line 47
+[05-Feb-2016 02:46:39 America/New_York] PHP Warning:  date() expects parameter 2 to be long, string given in /home/yuunga/public_html/dashboard/view_event.php on line 66
+[05-Feb-2016 02:46:39 America/New_York] PHP Warning:  date() expects parameter 2 to be long, string given in /home/yuunga/public_html/dashboard/view_event.php on line 47
+[05-Feb-2016 02:46:39 America/New_York] PHP Warning:  date() expects parameter 2 to be long, string given in /home/yuunga/public_html/dashboard/view_event.php on line 66
+[05-Feb-2016 02:46:39 America/New_York] PHP Warning:  date() expects parameter 2 to be long, string given in /home/yuunga/public_html/dashboard/view_event.php on line 47
+[05-Feb-2016 02:46:39 America/New_York] PHP Warning:  date() expects parameter 2 to be long, string given in /home/yuunga/public_html/dashboard/view_event.php on line 66
+[05-Feb-2016 02:46:39 America/New_York] PHP Warning:  date() expects parameter 2 to be long, string given in /home/yuunga/public_html/dashboard/view_event.php on line 47
+[05-Feb-2016 02:46:39 America/New_York] PHP Warning:  date() expects parameter 2 to be long, string given in /home/yuunga/public_html/dashboard/view_event.php on line 66
+[05-Feb-2016 02:56:02 America/New_York] PHP Warning:  date() expects parameter 2 to be long, string given in /home/yuunga/public_html/dashboard/view_event.php on line 47
+[05-Feb-2016 02:56:02 America/New_York] PHP Warning:  date() expects parameter 2 to be long, string given in /home/yuunga/public_html/dashboard/view_event.php on line 66
+[05-Feb-2016 02:56:02 America/New_York] PHP Warning:  date() expects parameter 2 to be long, string given in /home/yuunga/public_html/dashboard/view_event.php on line 47
+[05-Feb-2016 02:56:02 America/New_York] PHP Warning:  date() expects parameter 2 to be long, string given in /home/yuunga/public_html/dashboard/view_event.php on line 66
+[05-Feb-2016 02:56:02 America/New_York] PHP Warning:  date() expects parameter 2 to be long, string given in /home/yuunga/public_html/dashboard/view_event.php on line 47
+[05-Feb-2016 02:56:02 America/New_York] PHP Warning:  date() expects parameter 2 to be long, string given in /home/yuunga/public_html/dashboard/view_event.php on line 66
+[05-Feb-2016 02:56:02 America/New_York] PHP Warning:  date() expects parameter 2 to be long, string given in /home/yuunga/public_html/dashboard/view_event.php on line 47
+[05-Feb-2016 02:56:02 America/New_York] PHP Warning:  date() expects parameter 2 to be long, string given in /home/yuunga/public_html/dashboard/view_event.php on line 66
+[05-Feb-2016 02:56:02 America/New_York] PHP Warning:  date() expects parameter 2 to be long, string given in /home/yuunga/public_html/dashboard/view_event.php on line 47
+[05-Feb-2016 02:56:02 America/New_York] PHP Warning:  date() expects parameter 2 to be long, string given in /home/yuunga/public_html/dashboard/view_event.php on line 66
+[05-Feb-2016 02:56:02 America/New_York] PHP Warning:  date() expects parameter 2 to be long, string given in /home/yuunga/public_html/dashboard/view_event.php on line 47
+[05-Feb-2016 02:56:02 America/New_York] PHP Warning:  date() expects parameter 2 to be long, string given in /home/yuunga/public_html/dashboard/view_event.php on line 66
+[10-Feb-2016 00:41:20 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/yuunga/public_html/dashboard/gig_config.php:54) in /home/yuunga/public_html/dashboard/gig_config.php on line 127
+[10-Feb-2016 00:42:58 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/yuunga/public_html/dashboard/gig_config.php:54) in /home/yuunga/public_html/dashboard/gig_config.php on line 127
+[15-Feb-2016 11:01:12 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/yuunga/public_html/dashboard/index.php:54) in /home/yuunga/public_html/dashboard/index.php on line 137
+[16-Feb-2016 13:41:47 America/New_York] PHP Warning:  imagejpeg(../images/gigs/bugyroyal4-250x324_1152522959.jpg): failed to open stream: No such file or directory in /home/yuunga/public_html/dashboard/processuploadGIG.php on line 172
+[16-Feb-2016 13:41:47 America/New_York] PHP Warning:  imagejpeg(../images/gigs/thumb_bugyroyal4-250x324_1152522959.jpg): failed to open stream: No such file or directory in /home/yuunga/public_html/dashboard/processuploadGIG.php on line 172
+[16-Feb-2016 13:41:47 America/New_York] PHP Warning:  mysqli::mysqli(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/yuunga/public_html/dashboard/processuploadGIG.php on line 84
+[16-Feb-2016 13:45:17 America/New_York] PHP Warning:  mysqli::mysqli(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/yuunga/public_html/dashboard/processuploadGIG.php on line 84

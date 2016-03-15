@@ -1,0 +1,76 @@
+@charset "utf-8";
+/*	name:		banking guide form styles css;
+ 	author:		cyber dynamics;
+	version: 	1.0.1;
+	synopsis:	these styles format the looks of all the forms on the banking guide project;
+*/
+
+/*body{padding:0px; margin:0px; font-family:"Trebuchet MS", Arial, Helvetica, sans-serif}*/
+
+.yungaForms{ 
+	width:90%; 
+	/*height:200px;*/
+	background-color:rgba(102, 87, 95, 0.3);
+	padding:20px;
+	padding-top:50px; 
+	margin:0 auto;
+	margin-top:40px;
+	position:relative;
+	box-shadow: 0px 1px 20px 2px #662046;
+	margin-bottom:40px;
+	border-radius: 6px;
+	}
+
+input{position:relative;
+		float:right;
+		right:0px;
+}
+		
+.yungaForms div{
+	width:100%;
+	position:relative; 
+	margin-bottom:15px;
+	margin:10px;
+	/*height:40px;*/
+		}
+		
+.yungaForms a{
+	color: #662046;
+	text-decoration: underline;
+	font-size: 12px;
+}
+
+.yungaForms div label{
+	width:30%; 
+	padding-left:50px;
+	height:40px;
+	position:relative;
+	text-align:right;
+	}
+
+/*.yungaForms div input{ 
+	float:right;
+	
+	padding:4px 4px 4px 10px;
+	border-radius:3px;
+	
+	} */
+	
+	#sal, #gender{
+		border-radius:1px;
+		border-color:#662046;
+	}
+	
+	
+	
+	.yungaForms .textAs{
+		border-radius:3px;
+		border-color: #662046;
+		border: solid 1px #662046;
+	}
+	
+	.yungaForms textarea{
+		border-radius:2px;
+		margin-left: 2px;
+		
+	}
